@@ -18,10 +18,9 @@ function checkLocation(position) {
   const latitude = position.coords.latitude;
   const longitude = position.coords.longitude;
 
-  // Replace this with the desired location's coordinates
-  const targetLatitude = 48.740049;
-  const targetLongitude = -122.471641;
-  const radius = 0.0001; // Approximately 11 km
+  const targetLatitude = 48.731497;
+  const targetLongitude = -122.4858;
+  const radius = 0.0001;
 
   if (Math.abs(targetLatitude - latitude) < radius &&
       Math.abs(targetLongitude - longitude) < radius) {
